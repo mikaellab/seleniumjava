@@ -1,0 +1,13 @@
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="test.TestNGxml"/>
+      <class name="test.TestNGxml2">
+      <methods>
+      <include name = "navigateToApplication2"> 
+      </include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+</suite> 
